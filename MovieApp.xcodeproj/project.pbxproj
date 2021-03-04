@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D39E6C325F16BF700938453 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1D39E6C225F16BF700938453 /* Alamofire */; };
+		1D39E6C625F16C1600938453 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D39E6C525F16C1600938453 /* NetworkManager.swift */; };
+		1D39E6C925F16D9E00938453 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D39E6C825F16D9E00938453 /* API.swift */; };
+		1D39E6CC25F16DF100938453 /* MovieURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D39E6CB25F16DF100938453 /* MovieURL.swift */; };
+		1D39E6CF25F16EBE00938453 /* MovieDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D39E6CE25F16EBE00938453 /* MovieDownloadManager.swift */; };
+		1D39E6D225F1720B00938453 /* MovieReviewsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D39E6D125F1720B00938453 /* MovieReviewsManager.swift */; };
 		1DC9CC8425F10AEC005E7B67 /* MovieAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC9CC8325F10AEC005E7B67 /* MovieAppApp.swift */; };
 		1DC9CC8625F10AEC005E7B67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC9CC8525F10AEC005E7B67 /* ContentView.swift */; };
 		1DC9CC8825F10AF0005E7B67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC9CC8725F10AF0005E7B67 /* Assets.xcassets */; };
@@ -21,6 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D39E6C525F16C1600938453 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1D39E6C825F16D9E00938453 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		1D39E6CB25F16DF100938453 /* MovieURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieURL.swift; sourceTree = "<group>"; };
+		1D39E6CE25F16EBE00938453 /* MovieDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDownloadManager.swift; sourceTree = "<group>"; };
+		1D39E6D125F1720B00938453 /* MovieReviewsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieReviewsManager.swift; sourceTree = "<group>"; };
 		1DC9CC8025F10AEC005E7B67 /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC9CC8325F10AEC005E7B67 /* MovieAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAppApp.swift; sourceTree = "<group>"; };
 		1DC9CC8525F10AEC005E7B67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D39E6C325F16BF700938453 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +109,11 @@
 		1DC9CC9425F10CCA005E7B67 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				1D39E6C525F16C1600938453 /* NetworkManager.swift */,
+				1D39E6C825F16D9E00938453 /* API.swift */,
+				1D39E6CB25F16DF100938453 /* MovieURL.swift */,
+				1D39E6CE25F16EBE00938453 /* MovieDownloadManager.swift */,
+				1D39E6D125F1720B00938453 /* MovieReviewsManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -138,6 +155,9 @@
 			dependencies = (
 			);
 			name = MovieApp;
+			packageProductDependencies = (
+				1D39E6C225F16BF700938453 /* Alamofire */,
+			);
 			productName = MovieApp;
 			productReference = 1DC9CC8025F10AEC005E7B67 /* MovieApp.app */;
 			productType = "com.apple.product-type.application";
@@ -165,6 +185,9 @@
 				Base,
 			);
 			mainGroup = 1DC9CC7725F10AEC005E7B67;
+			packageReferences = (
+				1D39E6C125F16BF700938453 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 1DC9CC8125F10AEC005E7B67 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -191,12 +214,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D39E6C925F16D9E00938453 /* API.swift in Sources */,
 				1DC9CCA725F14879005E7B67 /* Cast.swift in Sources */,
 				1DC9CCA425F13FD0005E7B67 /* Movie.swift in Sources */,
+				1D39E6C625F16C1600938453 /* NetworkManager.swift in Sources */,
 				1DC9CCAA25F14945005E7B67 /* Review.swift in Sources */,
+				1D39E6CF25F16EBE00938453 /* MovieDownloadManager.swift in Sources */,
 				1DC9CC9E25F120B9005E7B67 /* MoviesView.swift in Sources */,
 				1DC9CC9825F10D48005E7B67 /* HomeTabView.swift in Sources */,
+				1D39E6D225F1720B00938453 /* MovieReviewsManager.swift in Sources */,
 				1DC9CC9B25F11CCF005E7B67 /* SettingsView.swift in Sources */,
+				1D39E6CC25F16DF100938453 /* MovieURL.swift in Sources */,
 				1DC9CC8625F10AEC005E7B67 /* ContentView.swift in Sources */,
 				1DC9CC8425F10AEC005E7B67 /* MovieAppApp.swift in Sources */,
 				1DC9CCA125F120C9005E7B67 /* DiscoverView.swift in Sources */,
@@ -386,6 +414,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1D39E6C125F16BF700938453 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1D39E6C225F16BF700938453 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D39E6C125F16BF700938453 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1DC9CC7825F10AEC005E7B67 /* Project object */;
 }
