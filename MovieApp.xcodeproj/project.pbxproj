@@ -12,6 +12,7 @@
 		1DC9CC8825F10AF0005E7B67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC9CC8725F10AF0005E7B67 /* Assets.xcassets */; };
 		1DC9CC8B25F10AF0005E7B67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC9CC8A25F10AF0005E7B67 /* Preview Assets.xcassets */; };
 		1DC9CC9825F10D48005E7B67 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC9CC9725F10D48005E7B67 /* HomeTabView.swift */; };
+		1DC9CC9B25F11CCF005E7B67 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC9CC9A25F11CCF005E7B67 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1DC9CC8A25F10AF0005E7B67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DC9CC8C25F10AF0005E7B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DC9CC9725F10D48005E7B67 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		1DC9CC9A25F11CCF005E7B67 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				1DC9CC9725F10D48005E7B67 /* HomeTabView.swift */,
+				1DC9CC9A25F11CCF005E7B67 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DC9CC9825F10D48005E7B67 /* HomeTabView.swift in Sources */,
+				1DC9CC9B25F11CCF005E7B67 /* SettingsView.swift in Sources */,
 				1DC9CC8625F10AEC005E7B67 /* ContentView.swift in Sources */,
 				1DC9CC8425F10AEC005E7B67 /* MovieAppApp.swift in Sources */,
 			);
