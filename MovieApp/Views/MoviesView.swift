@@ -70,7 +70,7 @@ struct MoviesView: View {
                     NavigationLink(
                         destination: Text(movie.titleWithLanguage),
                         label: {
-                            Text(movie.titleWithLanguage)
+                            MovieCell(movie: movie)
                         }).listRowBackground(Color.clear)
                 }
             }.onAppear() {
