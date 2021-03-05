@@ -29,6 +29,7 @@
 		95C4DCF925F216170008B8C6 /* EnvironmentValues+ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C4DCF825F216170008B8C6 /* EnvironmentValues+ImageCache.swift */; };
 		95C4DCFC25F216F90008B8C6 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C4DCFB25F216F90008B8C6 /* AsyncImage.swift */; };
 		95C4DCFF25F233160008B8C6 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C4DCFE25F233160008B8C6 /* MovieCell.swift */; };
+		95C4DD0225F241D80008B8C6 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C4DD0125F241D80008B8C6 /* MovieDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		95C4DCF825F216170008B8C6 /* EnvironmentValues+ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+ImageCache.swift"; sourceTree = "<group>"; };
 		95C4DCFB25F216F90008B8C6 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		95C4DCFE25F233160008B8C6 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		95C4DD0125F241D80008B8C6 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				1DC9CC9D25F120B9005E7B67 /* MoviesView.swift */,
 				1DC9CCA025F120C9005E7B67 /* DiscoverView.swift */,
 				95C4DCFE25F233160008B8C6 /* MovieCell.swift */,
+				95C4DD0125F241D80008B8C6 /* MovieDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				1D39E6CF25F16EBE00938453 /* MovieDownloadManager.swift in Sources */,
 				1DC9CC9E25F120B9005E7B67 /* MoviesView.swift in Sources */,
 				1DC9CC9825F10D48005E7B67 /* HomeTabView.swift in Sources */,
+				95C4DD0225F241D80008B8C6 /* MovieDetailView.swift in Sources */,
 				95C4DCFC25F216F90008B8C6 /* AsyncImage.swift in Sources */,
 				1D39E6D225F1720B00938453 /* MovieReviewsManager.swift in Sources */,
 				95C4DCF925F216170008B8C6 /* EnvironmentValues+ImageCache.swift in Sources */,

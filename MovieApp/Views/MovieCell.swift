@@ -70,7 +70,7 @@ struct MovieCell: View {
     }
     
     private var movieReleaseDate: some View {
-        Text(movie.release_data ?? "")
+        Text(movie.release_date ?? "")
             .foregroundColor(.black)
             .font(.subheadline)
     }
