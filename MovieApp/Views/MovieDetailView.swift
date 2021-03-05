@@ -86,7 +86,7 @@ struct MovieDetailView: View {
     private var reviewLink: some View {
         VStack {
             Divider()
-            NavigationLink(destination: Text("Some review")) {
+            NavigationLink(destination: MovieReviewView(movie: movie)) {
                 HStack {
                     Text("Reviews")
                         .font(.body)

@@ -13,6 +13,6 @@ struct ReviewResponse: Codable {
 
 struct Review: Codable, Identifiable {
     var id: String?
-    var auhtor: String?
+    var author: String?
     var content: String?
 }
