@@ -19,9 +19,9 @@ struct MovieCell: View {
                 
                 HStack {
                     movieVote
-                    
                     movieReleaseDate
                 }
+                movieOverview
             }
         })
     }
@@ -73,5 +73,11 @@ struct MovieCell: View {
         Text(movie.release_data ?? "")
             .foregroundColor(.black)
             .font(.subheadline)
+    }
+    
+    private var movieOverview: some View {
+        Text(movie.overview ?? "")
+            .font(.body)
+            .foregroundColor(.gray)
     }
 }
